@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+//ADD SHARED_PREFERENCE IN PUBSPEC.YAML
 class MyHomePage extends StatefulWidget{
     @override
     State<MyHomePage> createState() => _MyHomePageState();
@@ -11,6 +12,8 @@ class _MyHomePageState extends State<MyHomePage>{
 
    static const String KEYNAME = "name";
    //final String;//When to use final? When to use const?
+
+   //prefs.setBool(key, value_to_be_stored_int_this_key)
 
    @override
    void initState(){
